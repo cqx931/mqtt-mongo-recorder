@@ -14,7 +14,7 @@ config.mongodb.hostname   = process.env.MONGODB_HOSTNAME   || 'locahost';
 config.mongodb.port       = process.env.MONGODB_PORT       || 27017;
 config.mongodb.database   = process.env.MONGODB_DATABASE   || 'db';
 config.mongodb.collection = process.env.MONGODB_COLLECTION || 'message';
-config.mongodb.user       = process.env.USER               || 'user'
-config.mongodb.password   = process.env.PASSWORD           || ''
+config.mongodb.user       = process.env.MONGODB_USER       || 'user'
+config.mongodb.password   = process.env.MONGODB_PASSWORD   || ''
 
 module.exports = config;
